@@ -1,0 +1,94 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(./background-image.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.wrapper {
+    width: 420px;
+    background: #fff;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    padding: 40px 45px 20px 20px;
+    box-shadow: 0 0 50px midnightblue;
+}
+
+.wrapper img {
+    margin-left: 10px;
+    object-fit: cover;
+}
+
+.wrapper .input-box {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 20px 0 10px 10px;
+}
+.wrapper .input-box input {
+    width: 100%;
+    height: 100%;
+    border-radius: 40px;
+    border: 2px solid #333;
+    outline: none;
+    padding: 20px;
+    text-transform: uppercase;
+}
+
+.wrapper .input-box i {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #333;
+    font-size: 20px;
+}
+
+.wrapper .details-input-box {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    left: 15px;
+    margin-top: 20px;
+}
+.wrapper .details-input-box input {
+    width: 100%;
+    margin-right: 10px;
+    height: 40px;
+    border-radius: 40px;
+    border: 2px solid #333;
+    outline: none;
+    padding: 15px;
+}
+
+.wrapper .details-input-box i {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #333;
+    font-size: 20px;
+}
+
+.wrapper .btn-paynow {
+    width: 100%;
+    height: 40px;
+    background: blue;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    color: #fff;
+    margin: 20px 0 15px 10px;   
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+}
